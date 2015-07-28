@@ -1,5 +1,7 @@
 # Flexbox sticky footer
 
+[Demo](https://rawgit.com/rofrol/flexbox-footer/master/index.html)
+
 push item to bottom
 
 There is empty div which has flex: 1, because there is situation that div/divs can be added automatically before footer, but footer still has be at the bottom.
