@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<style>
+
+		#content {
+			display: flex;
+		}
+
+		#content #left {
+			flex: 0 0 20%;
+		}
+
+		#content #right {
+			flex: 0 0 80%;
+
+			display: flex;
+			flex-direction: column;
+		}
+
+/* Colors */
+		#content {
+			background-color: #eee;
+		}
+
+		#content #left {
+			background: #ccccff;
+		}
+
+		#content #left #menu {
+			margin-top: 200px;
+			background-color: #aad;
+		}
+
+		#content #right {
+			background-color: #dddd88;
+		}
+
+		#content #right #breadcrumbs {
+			background-color: #4ad;
+		}
+
+		#content #right .boxOfferWrap {
+			background-color: #ddaa88;
+		}
+	</style>
+</head>
+<body>
+<div id="content">
+	<div id="left">
+		<ul id="menu">
+			<li>elem1
+			<li>elem2
+		</ul>
+	</div>
+	<div id="right">
+		<div id="breadcrumbs">
+			One > Two > Three
+		</div>
+		<div id="list">
+			<ul>
+				<li>elem1
+				<li>elem2
+			</ul>
+		</div>
+		<div style="flex-grow: 1;"></div>
+		<div class="boxOfferWrap">
+			sticky footer
+		</div>
+	</div>
+</div>
+</body>
+</html>
