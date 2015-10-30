@@ -11,3 +11,5 @@ There is empty div which has flex: 1, because there is situation that div/divs c
 http://stackoverflow.com/questions/27697469/flex-box-sticky-footer-with-inner-flex-box-container-with-y-axis-scrolling
 
 http://stackoverflow.com/questions/24697267/flexbox-column-align-self-to-bottom
+
+http://webkit-flex.atomeye.com/
