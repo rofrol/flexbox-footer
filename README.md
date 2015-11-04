@@ -4,7 +4,7 @@
 
 push item to bottom
 
-There is empty div which has flex: 1, because there is situation that div/divs can be added automatically before footer, but footer still has be at the bottom.
+The footer has `margin-top: auto`, because there is situation that elements can be added automatically before footer, but footer still has to be at the bottom. Also I don't want to add wrapper that would be expanding.
 
 ![](/screenshot.png)
 
